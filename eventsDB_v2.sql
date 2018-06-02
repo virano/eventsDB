@@ -2,7 +2,7 @@ SET CLIENT_ENCODING TO 'utf8';
 DROP DATABASE IF EXISTS eventsdb;
 CREATE DATABASE eventsdb;
 
-\c eventsdbs;
+\c eventsdb;
 
 SET CLIENT_ENCODING TO 'utf8';
 CREATE TABLE events(
